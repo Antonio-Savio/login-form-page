@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="left-side">
+        <header><img src="./images/images/logo.svg" alt="camp.in logo"></header>
+        <div class="form-box">
+            
+            <form>
+                <h2><ion-icon name="exit"></ion-icon>Faça seu login</h2>
+                <p>Entre com suas informações de cadastro</p>
+                <br>
+                <label class="label-input">
+                    E-mail <br>
+                    <section>
+                        <input type="email" name="email" required minlength="8" placeholder="Digite seu e-mail">
+                        <ion-icon name="mail" class="yellow"></ion-icon>
+                    </section>
+                </label>
+                <br>
+
+                <label class="label-input">
+                    Senha <br>
+                    <section>
+                        <input type="password" name="password" id="password" required placeholder="Digite sua senha">
+                        <ion-icon name="lock-closed" class="yellow"></ion-icon>
+                        <ion-icon class="icon" name="eye"></ion-icon>
+                    </section> 
+                </label>
+                <br>
+
+                <div id="check-div">
+                    <label id="check-label">
+                        <input type="checkbox" name="remind-me">
+                        <span id="checkbox"></span>
+                        Lembre-me
+                    </label>
+                    <a href="#"><strong>Esqueci minha senha</strong></a>
+                </div>
+                <br>
+
+                <button type="submit">ENTRAR</button>
+                <br>
+
+                <a href="#" id="sign-up">Não tem uma conta?<strong> Registre-se</strong></a>
+            </form>
+        </div>
+    </div>
+    
+
+    <div class="img-right-side"></div>
+
+    <!--Ionicons installation-->
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
