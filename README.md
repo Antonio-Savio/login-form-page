@@ -6,6 +6,8 @@ Login form page in a responsive layout, with show and hide password functionalit
 - CSS
 - JavaScript
 
-## Overview
-- Desktop version
-<img src="./images/images/pagina-de-login.png" alt="login page">
+## Desktop version
+<img src="./images/images/pagina-de-login.png" alt="login page desktop">
+
+## Mobile version
+<img width="280px" src="./images/images/mobile.png" alt="login page mobile">
