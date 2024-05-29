@@ -15,6 +15,7 @@ Login form page in a responsive layout, with show and hide password functionalit
 ## Functionalities ☑️
 This application must be able to:
 - Adapt layout through different screen sizes.
+- Hide and show the password with a click.
 
 ##  Link 🔗
 - [Login Form Page](https://antonio-savio.github.io/login-form-page/)
